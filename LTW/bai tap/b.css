@@ -1,0 +1,13 @@
+.content{
+    max-width: max-content;
+    background-color:aquamarine;
+}
+.button{
+    width: 100px;
+    float: right;
+}
+.login{
+    background-color: blue;
+    font-style: normal;
+    float: right;
+}

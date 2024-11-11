@@ -1,0 +1,84 @@
+.women {
+    display: grid;
+    grid-template-columns: 45% 45% ;
+    column-gap: 5%;
+    margin-top: 50px;
+}
+.left img {
+    width: 100%;
+}
+.hai_anh {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap:10%;
+    margin-bottom: 19px;
+}
+.hai_anh img {
+    width: 100%;
+    height: 280px;
+}
+.content p {
+    color: white;
+    padding-bottom: 10px;
+}
+.content h2 span {
+    color: rgb(72, 255, 0);
+}
+.content h2 {
+    font-size: 30px;
+    padding-top: 5px;
+}
+.button {
+    background-color: rgb(72, 255, 0);
+    border: 1px solid rgb(72, 255, 0);
+    border-radius: 5px;
+}
+.button p {
+    padding: 10px;
+}
+.chu h3 {
+    text-align: center;
+    padding:10px;
+}
+.chu {
+    padding-top: 50px;
+}
+.chu hr {
+    width: 20%;
+    color: aquamarine;
+}
+.mau_xam {
+    font-size: 16px;
+    color: rgb(99, 99, 99);
+}
+.giatien {
+    padding-left: 20px;
+    border: 1px solid rgb(71, 71, 71);
+}
+.phan_chu {
+    text-align: center;
+    padding: 15px;
+     line-height: 30px;
+     background-color: rgb(243, 243, 243);
+}
+.phan_chu p {
+    color: rgb(34, 34, 34);
+}
+.phan_chu h3 {
+    text-transform: uppercase;
+}
+.tien {
+    text-align: center;
+    background-color: rgb(189, 189, 186);
+    height: 220px;
+    padding-top: 60px;
+}
+.tien button p {
+    color: white;
+}
+.add {
+    padding: 10px;
+    margin-top: 10px;
+background-color: greenyellow;
+border: 1px solid greenyellow;
+}

@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+a{text-decoration: none;}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+}
+.dongdau{
+    float: left;
+    color: white;
+    width: 100%;
+    background-color: #333;
+    display: block;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.timkiem{
+    width: 200px;
+    color: #333;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    float: right;
+}
+a{
+    color:aquamarine;
+    text-decoration: none;
+    float: center;
+}
+.hh li{
+    text-decoration: none;
+    display: inline-flex;
+    font-size: larger;
+    line-height: 30px;
+}
+.hh li a{
+    color: white;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.hh{
+    width: 100%;
+    float: right;
+    text-align: right;
+    background-color: #333;
+}
+.headright{
+    width: 100%;
+    float: right;
+    text-align: right;
+}
+.headleft ul li{
+    display: inline-block;
+}
+.headleft{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #333;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login{
+    padding: 6px 10px; /* trên phải dưới trái */
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: whitesmoke
+}
+.login:hover{
+    background-color: aqua;
+}
+.headright ul{
+    list-style-type: none;
+    margin-top: 10px;   
+
+}
+.headright ul li{
+    display: inline-block;
+    padding: 10px;
+    text-transform:capitalize;
+}
+.clear{
+    clear:both;
+}
+#menu{
+    list-style-type: none;
+    background-color: #333;
+    border: 1px solid #333;
+    line-height: 30px;
+    padding-left: 20px;
+    font-size: medium;
+    
+}
+#menu li{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+#menu li a{
+    color: white;
+}
+.headleft li a{
+    color: whitesmoke;
+}
+.content{
+    width: 100%;
+}
+.spleft{
+    padding-top: 30px;
+    width: 55%;
+    float: left;
+    border-bottom: 3px solid #ff0202;
+}
+.spright{
+    width: 35%;
+    float: right;
+    border-bottom: 1px solid #ff0000;
+}
+.left{
+    width: 100%;
+    padding-top: 30px;
+}

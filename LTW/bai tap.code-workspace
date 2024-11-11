@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "bai tap"
+		},
+		{
+			"path": "thuc hanh"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "thuc hanh"
+	}
+}

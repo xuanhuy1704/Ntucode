@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+.header{
+    width: 100%;
+    padding: 50px 0px 20px 0px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 250px;
+}
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.nav_menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav_menu a{
+    color: #000;
+    text-shadow: 2px 0.3em 0.2em rgba(25, 24, 25, 0.59);
+    font-weight: 400px;
+}
+.nav_menu a:hover{
+    border-bottom: 2px solid #000;
+}
+.banner{
+    background: url(imgbai4/banner1.jpg);
+    min-height: 650px;
+    background-size: 100% 650px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner h3{
+    font-family: 'Mali', cursive;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+.banner p{
+    font-weight: 100px;
+    font-size: 18px;
+}
+.cart{
+    width: 18%;
+    text-align: center;
+}
+.catalogies{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+}
+.cart img{
+    width: 100%;
+}
+.cart h3{
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
+.slide_img{
+    height: 300px;
+    background: url(imgbai4/pic4.png) no-repeat left bottom, url(imgbai4/pic9.png) no-repeat top right;
+    background-size: 200px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.slide_img_text{
+    padding: 0px 30px;
+}
+.slide_img_text h3{
+    font-weight: 300px;
+    font-style: italic;
+    font-size: 26px;
+}
+.slide_img_text p{
+    font-size: 22px;
+    padding-top: 20px;
+}
+.cat_title{margin-top: 10px;}
+.title_catologies{
+    margin-top: 50px;
+}
+.cart{
+    position: relative;
+}
+.button{
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: black;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+}
+.button:hover{
+    background-color: rgb(6, 142, 180);
+}
+.Sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Sign_content{
+    width: 45%;
+}
+.Sign_img{
+    width: 55%;
+}
+.Sign_img img{
+    width: 100%;
+}
+.Sign_content h4{
+    font-family: 'Inknut Antiqua', serif;
+    line-height: 17px;
+    padding-bottom: 30px;
+}
+.Sign_content h4 span{
+    color: red;
+}
+.Sign_content p{
+    padding: 10px 0px;
+    line-height: 18px;
+}
+.Sign_content img{
+    width: 200px;
+}
+.footer{
+    min-height: 300px;
+    padding: 40px 0px;
+    margin-top: 40px;
+    background-color: #d7d2d2;
+    display: flex;
+    justify-content: space-between;
+}
+.box_menu{
+    width: 20%;
+    margin-left: 5%;
+}
+.box_menu h4{
+    font-size: 18px;
+    font-weight: 400px;
+    padding-bottom: 30px;
+}
+.box_menu ul{
+    list-style-type: none;
+}
+.box_menu a{
+    color: black;
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 40px;
+}

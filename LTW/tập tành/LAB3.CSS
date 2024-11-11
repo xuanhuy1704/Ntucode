@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+.header{
+    width: 100%;
+    padding: 0px 30px;
+}
+.header-text h1{
+    color: brown;
+    font-size: larger;
+}
+.header-text p{
+    color: brown;
+    font-size: small;
+    display: flex;
+    text-align: right;
+    float: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 10px;
+    justify-content: space-between;
+}
+img{
+    width: 50%;
+}
+#background{
+    color: black;
+}

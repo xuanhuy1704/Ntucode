@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='sharebill.css'>
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h2>Share Bill</h2></div>
+        <div class="form">
+            <form id="billForm" onsubmit="calculateBill(event)">
+                <label for="total">Tổng Bill</label>
+                <input type="number" id="total" placeholder="Nhập tổng tiền Bill" required>
+                
+                <label for="voucher">Mã Giảm Giá</label>
+                <select name="voucher" id="voucher">
+                    <option value="">Chọn mã giảm giá</option>
+                    <option value="sale1">Voucher: giảm 10%</option>
+                    <option value="sale2">Voucher: giảm 20%</option>
+                    <option value="sale3">Voucher: giảm 30%</option>
+                </select>
+                
+                <label for="shear">Số Người Sharebill</label>
+                <input type="number" id="shear" placeholder="Nhập số người" required>
+                
+                <div class="bt">
+                    <input type="submit" value="Bắt đầu chia!">
+                </div>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>  
+
+    <script>
+        function calculateBill(event) {
+            event.preventDefault(); // Ngăn chặn gửi form mặc định
+            
+            var totalAmount = parseFloat(document.getElementById('total').value);
+            var numPeople = parseInt(document.getElementById('shear').value);
+            var voucher = document.getElementById('voucher').value;
+            var discount = 0;
+
+            if (voucher === 'sale1') {
+                discount = 0.1;
+            } else if (voucher === 'sale2') {
+                discount = 0.2;
+            } else if (voucher === 'sale3') {
+                discount = 0.3;
+            }
+
+            if (totalAmount && numPeople) {
+                var discountedAmount = totalAmount - (totalAmount * discount);
+                var amountAfterSplit = discountedAmount / numPeople;
+
+                var resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = 'Số tiền mỗi người phải trả sau giảm giá: ' + amountAfterSplit.toFixed(2) + ' nghìn đồng';
+            } else {
+                var resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = 'Vui lòng nhập số tiền và số người chia.';
+            }
+        }
+    </script>
+</body>
+</html>

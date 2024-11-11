@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+   
+}
+html{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+.header-text{
+    background-color: black;
+    color: white;
+    display: flex;
+    line-height: 35px;
+    padding-top: 10px;
+
+}
+.header-text h4{
+    padding-left: 280px;
+}
+.header-text p {
+    padding-left: 20px;
+   padding-right: 20px;
+   font-style: italic;
+   font-size: 20px;
+}
+.header-text span{
+    background-color: white;
+    color: black;
+    
+    border-radius: 10px;
+    padding: 3px;
+    font-weight: bold;
+}
+.header-text h2{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.header-text h2{
+    font-size: 30px;
+}
+.header-text li{
+    list-style-type: none;
+    text-decoration: underline;
+    padding-top: 5px;
+}
+.shopnow{
+    color: white;
+}
+.logo{
+    width: 10%;
+    padding-left: 10px;
+}
+.logo img{
+    width: 100%;
+}
+
+.nav-menu{
+    width: 100%;
+    display: flex;
+    line-height: 20px;
+}
+.menu-ngang li a {
+    color: black;
+    font-size: 35px;
+    padding: 0px 20px;
+}
+
+.menu-ngang li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 60px;
+}
+#active{
+    color: black;
+    text-decoration: underline;
+    font-size: 35px;
+}
+.search{
+    padding-top: 45px;
+    font-size: 25px;
+    position: relative;
+    padding-left: 30px;
+}
+.search input{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 60px;
+}
+.search i {
+    padding-left: 20px;
+    position: absolute;
+    top: 45%;
+    left: 30px;
+    font-size: 35px;
+}
+.timkiem{
+    padding-left: 50px;
+}
+.icons{
+    padding-top: 50px;
+    margin-left: 50px;
+    display: flex;
+}
+.icons i {
+    font-size: 40px;
+    padding: 0px 20px;
+    padding-top: 5px;
+}
+.icons h3{
+    font-size: 40px;
+    padding-right: 10px;
+}
+.foryou li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 60px;
+}
+#foryouu{
+    color: white;
+    background-color: black;
+  
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.foryou li a {
+    padding: 10px 50px;
+    font-size: 20px;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 25px;
+}
+.foryou i {
+    color: red;
+    font-size: 30px;
+}
+.foryou ul li {
+    padding: 30px 20px;
+}
+.menu-banner{
+    width: 100%;
+}
+.menu-banner li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 30px;
+    
+}
+.menu-banner li a {
+    padding: 0px 30px;  
+}
+.menu-banner ul {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.banner img {
+    width: 100%;
+}
+.banner-text {
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+.banner-text span{
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;
+    padding-left: 20px;
+}
+.banner-text h3{
+    color: white;
+    font-size: 45px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.banner-text ul {
+    list-style-type: none;
+    padding: 20px 20px;
+}
+.banner-text li a {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Chia ra thành 5 cột bằng nhau */
+    grid-gap: 20px; /* Khoảng cách giữa các cột */
+    margin-top: 50px;
+  }
+
+.card-content {
+    position: relative;
+    text-align: center;
+
+}
+  
+.discount-overlay {
+    position: absolute;
+    top: 0;
+    left: 45px;
+    background-color: rgba(255, 0, 0, 0.6);
+    border: 1px solid rgba(255, 0, 0, 0.6);
+    border-radius: 25px;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+
+

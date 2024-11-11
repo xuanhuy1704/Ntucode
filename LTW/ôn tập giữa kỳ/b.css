@@ -1,0 +1,140 @@
+html{
+    line-height: 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 20px;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 50%;
+    height: 40px;
+}
+.search{
+    width: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #a6daa6;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+.search input{
+    border: none;
+    width: 90%;
+}
+.search input:focus{
+    outline: none;
+}
+.search i{
+    font-size: 20px;
+}
+.call{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.call i {
+    font-size: 30px;
+    color: #a6daa6;
+    margin-right: 5px;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.cart i{
+    font-size: 30px;
+    color: #a6daa6;
+    margin-right: 5px;
+}
+.clear{
+    clear: both;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 10px;
+}
+.menu-trai{
+    line-height: 40px;
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+}
+.menu-trai li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+.menu-trai li a {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.banner-left ul li a:hover{
+    color: pink;
+}
+.banner-left img{
+    width: 100%;
+}
+
+.banner-right ul{
+    border: 1px solid #ccc;
+}
+.banner-right ul li {
+    list-style-type: none;
+    width: 100%;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 20px;
+}
+.banner-right li a{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.banner-right ul li i{
+    padding-right: 10px;
+}
+.banner-right ul li a:hover{
+    color: pink;
+}
+h3{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.menu-bath-room{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 15px;
+}
+.menu-bath{
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.menu-bath-right{
+    border: none;
+    text-align: right; 
+}
+.menu-bath-right a{
+    text-transform: capitalize !important;
+    padding: 0px 5px;
+}

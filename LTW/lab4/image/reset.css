@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+/* chia cột */
+[class*="col-"] {
+    float: left;
+}
+/* thêm một class gia vào phía sau class row */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

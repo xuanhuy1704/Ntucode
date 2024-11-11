@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 500px;
+    min-height: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+}
+.container::after{
+    content: "ĐĂNG KÝ";
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    color: rgb(242, 0, 255);
+    font-size: 20px;
+    background-color: pink;
+}
+label{
+    width: 100%;
+    line-height: 40px;
+}
+input[type="text"],[type="password"]{
+    width: 100%;
+    padding: 10px;
+}
+.button{
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    
+}
+input[type="submit"]{
+    padding: 15px 10px;
+    background-color: pink;
+    border-radius: 15px;
+}

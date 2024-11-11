@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>slide ảnh</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='slideanh.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="slide">
+        <img src="anh1.jpg" alt="ảnh 1">
+        <img src="anh2.jpg" alt="ảnh 2">
+        <img src="anh3.jpg" alt="ảnh 3">
+        <img src="anh4.jpg" alt="ảnh 4">
+    </div>
+    <script type="text/javascript">
+        let slideIndex=0
+        showSlides();
+        function showSlides(){
+            let slides=document.querySelectorAll('.slide img');
+            for(let i=0;i<slides.length;i++)
+            slides[i].style.display="none";
+        slideIndex++;
+        if(slideIndex>slides.length)
+        slideIndex=1;
+        slides[slideIndex-1].style.display="block";
+        }
+        setTimeout(showSlides, 4000);
+    </script>
+</body>
+</html>

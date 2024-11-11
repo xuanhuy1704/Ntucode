@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+        <h3> welcome to my home</h3>
+        a:<input type="text" id="giatria"></br>
+        b:<input type="text" id="giatrib"></br>
+        tong:<input type="text" id="tong"></br>
+        <input type="button" value="tong" onclick="tinhtong()">
+    </form>
+    <script type="text/javascript">
+        function tinhtong(){
+        var a=document.getElementById("giatria").value;
+        var b=document.getElementById("giatrib").value;
+        var c=parseInt(a)+parseInt(b);
+        document.getElementById("tong").value=c;
+        }
+
+        //truong hop 1 cả a  và b đều sai
+        if(isNaN(a))&&(isNaN(b)){
+        alert("vui lòng nhập a và b dưới dạng số");
+        }
+
+        else //truong hop a sai,b dung
+        if(isNaN(a))(
+            alert("vui long nhap so")
+            
+        )
+        else //truong hop b sai,a dung  
+    </script>
+</body>
+</html>

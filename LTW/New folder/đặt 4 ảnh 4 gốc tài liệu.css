@@ -1,0 +1,12 @@
+#two1{
+    top: 40px;
+    left: 30px;
+    background-color: green;
+    position: relative; /* di chuyen di so voi vi tri ban dau cua nó */
+}
+#two2{
+    top: 60px;
+    left: 90px;
+    background-color: green;
+    position: absolute; /* di chuyen di so voi doi tuong cha */
+}

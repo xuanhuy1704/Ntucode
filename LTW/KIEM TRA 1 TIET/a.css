@@ -1,0 +1,131 @@
+html{
+    line-height: 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    height: 80px;
+    justify-content: space-between;
+}
+#active{
+    color: chartreuse;
+}
+.logo{
+    padding-left: 100px;
+}
+.logo img{
+    width: 70%;
+}
+.menu-ngang{
+    line-height: 40px;
+    padding: 0px 10px;
+}
+.menu-ngang li ul{
+    min-width: 200px;
+    background-color: azure;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    display: none;
+    border: 1px solid #ccc;
+}
+.menu-ngang li ul li {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
+.menu-ngang li:hover ul{
+    display: block;
+}
+
+.menu-ngang ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+}
+
+.menu-ngang li a{
+    color: black;
+    padding: 0px 20px;
+    text-transform: uppercase;
+}
+
+.menu-ngang ul li a:hover{
+    color: chartreuse;
+}
+
+.icons{
+    line-height: 40px;
+    margin-left: 300px;
+}
+.icons i{
+    padding: 0px 10px;
+    align-items: center;
+    font-size: 20px;
+}
+.banner{
+    background-image: url(banner-bg.jpg);
+    height: 600px;
+    background-size: 100% 600px;
+    align-items: center;
+    display: flex;
+    padding: 0px 15%;
+}
+.banner-text{
+    width: 30%;
+}
+.banner-text h5{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: white;
+}
+.banner-text h2{
+    font-size: 30px;
+    padding: 20px 0px;
+    color: #86c816;
+}
+.banner-text h2 span{
+    color: white;
+}
+
+.button{
+    color: white;
+    border: 1px solid #aaa;
+}
+
+.main{
+    width: 100%;
+}
+.tieude{
+    text-align: center;
+    padding-top: 100px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 10px;
+}
+.card{
+    padding: 0px 20px;
+}
+.price{
+    border: 1px solid #ccc;
+    padding: 30px 20px;
+}
+.content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.cottrai img{
+    width: 100%;
+}
+
